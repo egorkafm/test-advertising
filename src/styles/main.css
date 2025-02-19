@@ -1,0 +1,32 @@
+body {
+  background-image: url("../assets/images/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.footer {
+  width: 100vw;
+  height: 50px;
+  background-image: url("../assets/images/logo.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+@media screen and (min-width: 540px) {
+  .footer {
+    background-size: cover;
+    height: 100px;
+  }
+}
