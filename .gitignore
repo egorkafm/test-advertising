@@ -1,0 +1,56 @@
+# WebStorm-specific files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+out/
+.cache/
+.vscode/
+
+# Logs and system files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+
+# Webpack and bundler cache
+.cache/
+.next/
+.nuxt/
+.svelte-kit/
+.vercel/
+.netlify/
+.vite/
+.vitepress/
+storybook-static/
+.cache-loader/
+.eslintcache/
+stylelintcache/
+
+# Environment variables
+.env
+.env.development
+.env.production
+.env.test
+.env*.local
+
+# Lerna
+/lerna-debug.log
+
+# MacOS
+.DS_Store
